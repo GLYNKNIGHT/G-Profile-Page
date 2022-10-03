@@ -1,0 +1,5 @@
+.connect{
+    display: flex;
+    align-content: left;
+    gap:20px;
+}

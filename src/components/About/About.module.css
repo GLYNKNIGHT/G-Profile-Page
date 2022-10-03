@@ -1,0 +1,17 @@
+.about_content{
+    display: flex;
+    align-items: center;
+}
+
+.about_content p{
+   text-align: left;
+   margin: 0;
+   background-color: #26292f;
+   padding: 15px;
+   border-radius: 8px;
+}
+
+.about_content img{
+    padding: 30px;
+    border-radius: 20%;
+ }

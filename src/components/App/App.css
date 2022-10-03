@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  color: aliceblue;
+}
+
+
+.App-header {
+  background-color: 212121;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+}
+
+.main{
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap:15vh;
+}
