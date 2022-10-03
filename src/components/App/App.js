@@ -6,11 +6,12 @@ import Nav from '../Nav/Nav';
 import Connect from '../Connect/Connect';
 import Experience from '../Experience/Experience';
 
+
 function App() {
 
 
   return (
-    <div className="App">
+    <div className="App"  >
      <Nav/>
       <header className="App-header">
       

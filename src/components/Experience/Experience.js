@@ -1,6 +1,7 @@
 import Heading from '../Heading/Heading';
 import Styles from './Experience.module.css';
 
+
 const Experience = () =>{
     return<div id='experience'>
     <Heading heading={'Experience'} />
@@ -15,6 +16,7 @@ const Experience = () =>{
         <img src='./postgresql_icon.png' alt='HTML'/>
        
     </div>
+   
     </div>
 }
 export default Experience
