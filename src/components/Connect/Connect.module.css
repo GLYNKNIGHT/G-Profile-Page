@@ -1,5 +1,7 @@
 .connect{
     display: flex;
     align-content: left;
-    gap:20px;
+    margin-left: 5vw;
+    gap:5vw;
+    margin-bottom: 5vh;
 }

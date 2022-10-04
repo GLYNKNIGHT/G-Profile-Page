@@ -5,7 +5,7 @@ import Projects from '../Projects/Projects';
 import Nav from '../Nav/Nav';
 import Connect from '../Connect/Connect';
 import Experience from '../Experience/Experience';
-
+import Footer from '../Footer/Footer';
 
 function App() {
 
@@ -18,13 +18,14 @@ function App() {
             <Header />
      
       </header>
-     
+      
       <div className='main'>
-      <About/>
+            <About/>
       <Projects/> 
       <Experience/>
       <Connect/>
       </div>
+      <Footer/>
     </div>
   );
 }

@@ -6,26 +6,31 @@ margin:0 auto;
 .project_grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 2rem;
 }
 
 .project_card{
-width: 25vw;
+width: auto;
 height: auto;
 margin: 0 auto;
 border-radius: 10px;
-border: 6px solid #769687;
+
 }
 
 .project_card img{
   width:100%;
   height: 100%;
   border-radius: 5px;
- 
+  border: 0.2vw solid #212121;
   }
 
 .project_card img:hover{
- transform: scale(1.1);
- border: 5px solid white;
+ 
+ border: 0.2vw solid white;
+  
+}
+
+
+@media screen {
   
 }
