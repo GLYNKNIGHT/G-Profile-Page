@@ -1,12 +1,17 @@
 .project_container{
 width:90vw;
 margin:0 auto;
+
 }
 
 .project_grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    background-color: #26292f;
+    padding: 1.5vw;
+    border-radius: 8px;
+    border-bottom: 0.5px solid #769687 ;
 }
 
 .project_card{
