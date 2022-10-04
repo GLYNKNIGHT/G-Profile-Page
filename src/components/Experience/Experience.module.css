@@ -1,7 +1,10 @@
 .experience_grid{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
+    gap: 2vw;
+    background-color: #26292f;
+    padding: 2vw;
+    border-radius: 8px;
 }
 .experience_grid img {
    margin: 0 auto;
