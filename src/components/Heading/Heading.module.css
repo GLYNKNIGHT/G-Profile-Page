@@ -4,3 +4,11 @@
     gap:1vw;
    padding: 5px; 
 }
+
+@media screen and (max-width: 800px){
+    .heading h2{
+        font-size: 2rem;
+        margin: 0;
+    }
+     
+}

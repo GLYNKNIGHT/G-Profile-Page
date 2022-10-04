@@ -10,3 +10,19 @@
 .experience_grid img {
    margin: 0 auto;
 }
+
+
+@media screen and (max-width: 800px) {
+    .experience_grid{
+        
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1vw;
+        
+    }
+
+    .experience_grid img {
+        width:30px;
+        height:30px;
+        margin-bottom:10px
+     }
+  }

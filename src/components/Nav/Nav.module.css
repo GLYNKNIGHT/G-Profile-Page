@@ -22,3 +22,13 @@
 transform: scale(1.2);
 color: #769687;
 }
+
+
+@media screen and (max-width: 800px){
+    .nav_container{
+        margin:  1vw 10vw;
+        height: 5vh;
+             font-size: 1rem;
+      
+    } 
+}

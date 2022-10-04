@@ -1,8 +1,8 @@
 .header{
         display: flex;
         align-items: center;
-        gap:50px
-}
+        gap:5vw;
+        }
 
 .header h1{
     font-size: 4vw;
@@ -29,3 +29,16 @@
     } 
 }
 
+@media screen and (max-width: 800px){
+    .header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:2vw;
+        }
+        .header h1{
+            font-size: 2rem;
+            margin: 0;
+        }
+
+}

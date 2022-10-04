@@ -4,7 +4,7 @@ import Styles from './Experience.module.css';
 
 const Experience = () =>{
     return<div id='experience'>
-    <Heading heading={'Experience'} />
+    <Heading heading={'Tool Kit'} />
     <div className={Styles.experience_grid}>
     
         <img src='./html5_icon.png' alt='HTML'/>
