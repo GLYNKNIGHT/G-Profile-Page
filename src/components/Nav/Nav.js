@@ -6,7 +6,7 @@ const Nav = () =>{
         <p>|</p>
         <a href='#projects'>Projects</a>  
         <p>|</p>
-        <a href='#experience'>Experience</a>  
+        <a href='#experience'>Tool Kit</a>  
         <p>|</p>
         <a href='#connect'>Connect</a>  
     </div>
