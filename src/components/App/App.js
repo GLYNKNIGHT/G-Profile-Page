@@ -14,17 +14,15 @@ function App() {
     <div className="App"  >
      <Nav/>
       <header className="App-header">
-      
-            <Header />
-     
-      </header>
+                  <Header />
+          </header>
       
       <div className='main'>
             <About/>
-      <Projects/> 
-      <Experience/>
-      <Connect/>
-      </div>
+            <Projects/> 
+            <Experience/>
+            <Connect/>
+        </div>
       <Footer/>
     </div>
   );

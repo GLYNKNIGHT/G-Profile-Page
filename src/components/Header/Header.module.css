@@ -9,11 +9,12 @@
 .header h1{
     font-size: 6vw;
     margin: 1vw;
+    
 }
 
 .header h3{
     font-size: 2vw;
-    margin: 1vw;
+    margin: 1.1vw;
     text-align: left;
 }
 
@@ -25,6 +26,7 @@
   
     width: 15%;
     height: auto;
+   
     -webkit-animation:spin 15s linear infinite;
     -moz-animation:spin 15s linear infinite;
     animation:spin 15s linear infinite;
@@ -44,7 +46,7 @@
         transform:rotate(360deg); 
     } 
 }
-
+ 
 @media screen and (max-width: 800px){
     .header{
         display: flex;
