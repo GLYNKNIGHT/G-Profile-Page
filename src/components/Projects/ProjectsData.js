@@ -15,13 +15,13 @@ let ProjectData = [
     title: 'Band-Its',
     url: 'https://github.com/GLYNKNIGHT/Band-Its-Week-8-Hackathon-',
     img: './BandIts.PNG',
-   description: 'Band API'
+   description: 'Band search '
    },
 {id:4,
     title: 'GetaNote',
     url: 'https://github.com/GLYNKNIGHT/Geta-Note--Wk9--Team-Project',
     img: './GetaNote.PNG',
-   description: 'Note sharing App'
+   description: 'Team Project - Note sharing App'
    },
 {id:5,
     title: 'To Do',
