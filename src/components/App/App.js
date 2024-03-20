@@ -9,20 +9,18 @@ import Footer from '../Footer/Footer';
 
 function App() {
 
-
   return (
     <div className="App"  >
      <Nav/>
       <header className="App-header">
-                  <Header />
-          </header>
-      
+        <Header />
+      </header>
       <div className='main'>
-            <About/>
-            <Projects/> 
-            <Experience/>
-            <Connect/>
-        </div>
+        <About/>
+        <Projects/> 
+        <Experience/>
+        <Connect/>
+      </div>
       <Footer/>
     </div>
   );

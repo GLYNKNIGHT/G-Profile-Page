@@ -2,7 +2,7 @@
 
 .about_content{
     display: flex;
-    align-items: center;
+    align-items: top;
 }
 
 .about_content p{
@@ -15,6 +15,16 @@
     padding: 15px;
     border-radius: 8px;
     border-bottom: 0.5px solid #769687 ;
+}
+
+.about_me{
+    margin-top:1.5vw;
+    height: 15vh;
+    overflow-y: hidden;
+}
+
+.about_me:hover{
+    height: auto;
 }
 
 .about_content img{

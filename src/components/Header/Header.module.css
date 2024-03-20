@@ -1,15 +1,14 @@
 .header{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap:5vw;
-        width: 50vw;
-        }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5vw;
+    width: 50vw;
+}
 
 .header h1{
     font-size: 6vw;
-    margin: 1vw;
-    
+    margin: 1vw;   
 }
 
 .header h3{
@@ -22,16 +21,13 @@
     align-items: left;
 
 }
+
 .logo {
-  
     width: 15%;
     height: auto;
-   
     -webkit-animation:spin 15s linear infinite;
     -moz-animation:spin 15s linear infinite;
     animation:spin 15s linear infinite;
-  
-
 }
 
 @-moz-keyframes spin { 
@@ -54,9 +50,8 @@
         flex-direction: column;
         gap:2vw;
         }
-        .header h1{
-            font-size: 2rem;
-            margin: 0;
-        }
-
+    .header h1{
+        font-size: 2rem;
+        margin: 0;
+    }
 }
